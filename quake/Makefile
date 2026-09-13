@@ -29,6 +29,8 @@ CFLAGS  = -g -Wall -Werror -O2 -DNDEBUG -DQUAKE1 -fno-strict-aliasing
 CFLAGS += -fomit-frame-pointer
 endif
 CFLAGS += -I. -I../common
+CFLAGS += -Wno-dangling-pointer
+CFLAGS += -fcommon
 LIBS    =
 EXE     = qdos.exe
 
