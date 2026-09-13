@@ -7,7 +7,13 @@ Slightly modified to compile with
 - gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
 - i586-pc-msdosdjgpp-gcc (GCC) 12.2.0 
 
--o-o-o-o-o-o-o-o-
+CHANGES:
+
+- Changed Mod_PointInLeaf() prototype → vec3_t
+- Suppressed GCC's -Wdangling-pointer warning
+- Added -fcommon for the old Quake global-variable/linker behavior
+
+---
 
 Quake v1.09 and QuakeWorld v2.40 for DOS with WATTCP Stack
 Original Concept and WATTCP import coding by NeoZeed
