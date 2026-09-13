@@ -1,4 +1,5 @@
 qdosreloaded is a fork of qdos
+---------------------------------------------------------
 
 Slightly alterd to compile with
 
