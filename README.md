@@ -4,7 +4,6 @@ qdosreloaded is a fork of qdos
 Slightly modified to compile with
 
 - GNU Make 4.3 Built for x86_64-pc-linux-gnu
-- gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
 - i586-pc-msdosdjgpp-gcc (GCC) 12.2.0 
 
 CHANGES:
